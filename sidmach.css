@@ -1,0 +1,65 @@
+.login-page{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.welcome{
+    align-content: center;
+    background-color: rgb(232, 218, 245);
+    width: 50%;
+}
+.welcome h1{
+    margin: 0 50px;
+    color: blueviolet;
+    font-size: 48px;
+}
+.input-tab{
+ width: 50%;
+ margin-left: 5rem;
+}
+.input-tab p{
+    color: grey;
+}
+#form{
+    margin-top: 20px;
+}
+#email-input,
+#password-input{
+    border:  solid 0.5px grey;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 0;
+}
+::placeholder{
+    color: #000;
+}
+label{
+    color: grey;
+}
+#label{
+    font-size: 12px;
+}
+div a{
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    margin-left: 70px;
+}
+
+#btn{
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: #fff;
+    width: 250px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
